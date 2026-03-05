@@ -91,9 +91,33 @@ class AppDelegate: NSObject, NSApplicationDelegate {
 
     func updateWidget() {
         sshHosts = SSHConfigParser.parse()
-        widgetWindow?.close()
-        widgetWindow = nil
-        showWidget()
+        buildMenu()
+
+        let hostNames = sshHosts.map { host in
+            WidgetHost(
+                label: host.user != nil ? "\(host.user!)@\(host.displayName)" : host.displayName,
+                host: host
+            )
+        }
+
+        let widgetView = DesktopWidgetView(hosts: hostNames, onConnect: { [weak self] host in
+            self?.connectToSSH(host)
+        }, onRefresh: { [weak self] in
+            self?.refresh()
+            self?.updateWidget()
+        })
+
+        let hostingView = NSHostingView(rootView: widgetView)
+        let fittingSize = hostingView.fittingSize
+
+        if let window = widgetWindow {
+            let oldOrigin = window.frame.origin
+            window.contentView = hostingView
+            window.setContentSize(fittingSize)
+            window.setFrameOrigin(oldOrigin)
+        } else {
+            showWidget()
+        }
     }
 
     func buildMenu() {

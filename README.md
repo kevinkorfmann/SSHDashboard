@@ -2,7 +2,9 @@
 
 A lightweight macOS menu bar app and desktop widget that displays your SSH hosts from `~/.ssh/config`. Click a host to open a Terminal session.
 
-![SSH Dashboard widget](screenshot.png)
+<p align="center">
+  <img src="screenshot.png" alt="SSH Dashboard widget" width="320">
+</p>
 
 ## Features
 
