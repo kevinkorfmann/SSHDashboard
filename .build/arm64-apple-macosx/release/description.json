@@ -1,0 +1,232 @@
+{
+  "builtTestProducts" : [
+
+  ],
+  "copyCommands" : {
+
+  },
+  "explicitTargetDependencyImportCheckingMode" : {
+    "none" : {
+
+    }
+  },
+  "generatedSourceTargetSet" : [
+
+  ],
+  "pluginDescriptions" : [
+
+  ],
+  "swiftCommands" : {
+    "C.SSHDashboard-release.module" : {
+      "executable" : "/Library/Developer/CommandLineTools/usr/bin/swiftc",
+      "fileList" : "/Users/kevinkorfmann/Projects/ssh-dashboard-mac/.build/arm64-apple-macosx/release/SSHDashboard.build/sources",
+      "importPath" : "/Users/kevinkorfmann/Projects/ssh-dashboard-mac/.build/arm64-apple-macosx/release",
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/kevinkorfmann/Projects/ssh-dashboard-mac/SSHDashboard/DesktopWidgetView.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/kevinkorfmann/Projects/ssh-dashboard-mac/SSHDashboard/SSHConfigParser.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/kevinkorfmann/Projects/ssh-dashboard-mac/SSHDashboard/SSHDashboardApp.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/kevinkorfmann/Projects/ssh-dashboard-mac/.build/arm64-apple-macosx/release/swift-version--1AB21518FC5DEDBE.txt"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/kevinkorfmann/Projects/ssh-dashboard-mac/.build/arm64-apple-macosx/release/SSHDashboard.build/sources"
+        }
+      ],
+      "isLibrary" : false,
+      "moduleName" : "SSHDashboard",
+      "moduleOutputPath" : "/Users/kevinkorfmann/Projects/ssh-dashboard-mac/.build/arm64-apple-macosx/release/SSHDashboard.swiftmodule",
+      "objects" : [
+        "/Users/kevinkorfmann/Projects/ssh-dashboard-mac/.build/arm64-apple-macosx/release/SSHDashboard.build/DesktopWidgetView.swift.o",
+        "/Users/kevinkorfmann/Projects/ssh-dashboard-mac/.build/arm64-apple-macosx/release/SSHDashboard.build/SSHConfigParser.swift.o",
+        "/Users/kevinkorfmann/Projects/ssh-dashboard-mac/.build/arm64-apple-macosx/release/SSHDashboard.build/SSHDashboardApp.swift.o"
+      ],
+      "otherArguments" : [
+        "-target",
+        "arm64-apple-macosx13.0",
+        "-swift-version",
+        "5",
+        "-O",
+        "-j11",
+        "-DSWIFT_PACKAGE",
+        "-module-cache-path",
+        "/Users/kevinkorfmann/Projects/ssh-dashboard-mac/.build/arm64-apple-macosx/release/ModuleCache",
+        "-parseable-output",
+        "-Xfrontend",
+        "-entry-point-function-name",
+        "-Xfrontend",
+        "SSHDashboard_main",
+        "-sdk",
+        "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk",
+        "-g",
+        "-Xcc",
+        "-isysroot",
+        "-Xcc",
+        "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk",
+        "-Xcc",
+        "-fPIC",
+        "-Xcc",
+        "-g",
+        "-package-name",
+        "ssh_dashboard_mac"
+      ],
+      "outputFileMapPath" : "/Users/kevinkorfmann/Projects/ssh-dashboard-mac/.build/arm64-apple-macosx/release/SSHDashboard.build/output-file-map.json",
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/kevinkorfmann/Projects/ssh-dashboard-mac/.build/arm64-apple-macosx/release/SSHDashboard.build/DesktopWidgetView.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/kevinkorfmann/Projects/ssh-dashboard-mac/.build/arm64-apple-macosx/release/SSHDashboard.build/SSHConfigParser.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/kevinkorfmann/Projects/ssh-dashboard-mac/.build/arm64-apple-macosx/release/SSHDashboard.build/SSHDashboardApp.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/kevinkorfmann/Projects/ssh-dashboard-mac/.build/arm64-apple-macosx/release/SSHDashboard.swiftmodule"
+        }
+      ],
+      "sources" : [
+        "/Users/kevinkorfmann/Projects/ssh-dashboard-mac/SSHDashboard/DesktopWidgetView.swift",
+        "/Users/kevinkorfmann/Projects/ssh-dashboard-mac/SSHDashboard/SSHConfigParser.swift",
+        "/Users/kevinkorfmann/Projects/ssh-dashboard-mac/SSHDashboard/SSHDashboardApp.swift"
+      ],
+      "tempsPath" : "/Users/kevinkorfmann/Projects/ssh-dashboard-mac/.build/arm64-apple-macosx/release/SSHDashboard.build",
+      "wholeModuleOptimization" : true
+    }
+  },
+  "swiftFrontendCommands" : {
+
+  },
+  "swiftTargetScanArgs" : {
+    "SSHDashboard" : [
+      "/Library/Developer/CommandLineTools/usr/bin/swiftc",
+      "-module-name",
+      "SSHDashboard",
+      "-package-name",
+      "ssh_dashboard_mac",
+      "-whole-module-optimization",
+      "-num-threads",
+      "11",
+      "-c",
+      "/Users/kevinkorfmann/Projects/ssh-dashboard-mac/SSHDashboard/DesktopWidgetView.swift",
+      "/Users/kevinkorfmann/Projects/ssh-dashboard-mac/SSHDashboard/SSHConfigParser.swift",
+      "/Users/kevinkorfmann/Projects/ssh-dashboard-mac/SSHDashboard/SSHDashboardApp.swift",
+      "-I",
+      "/Users/kevinkorfmann/Projects/ssh-dashboard-mac/.build/arm64-apple-macosx/release",
+      "-target",
+      "arm64-apple-macosx13.0",
+      "-swift-version",
+      "5",
+      "-O",
+      "-j11",
+      "-DSWIFT_PACKAGE",
+      "-module-cache-path",
+      "/Users/kevinkorfmann/Projects/ssh-dashboard-mac/.build/arm64-apple-macosx/release/ModuleCache",
+      "-parseable-output",
+      "-Xfrontend",
+      "-entry-point-function-name",
+      "-Xfrontend",
+      "SSHDashboard_main",
+      "-sdk",
+      "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk",
+      "-g",
+      "-Xcc",
+      "-isysroot",
+      "-Xcc",
+      "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk",
+      "-Xcc",
+      "-fPIC",
+      "-Xcc",
+      "-g",
+      "-package-name",
+      "ssh_dashboard_mac",
+      "-driver-use-frontend-path",
+      "/Library/Developer/CommandLineTools/usr/bin/swiftc"
+    ]
+  },
+  "targetDependencyMap" : {
+    "SSHDashboard" : [
+
+    ]
+  },
+  "testDiscoveryCommands" : {
+
+  },
+  "testEntryPointCommands" : {
+
+  },
+  "writeCommands" : {
+    "/Users/kevinkorfmann/Projects/ssh-dashboard-mac/.build/arm64-apple-macosx/release/SSHDashboard.build/sources" : {
+      "alwaysOutOfDate" : false,
+      "inputs" : [
+        {
+          "kind" : "virtual",
+          "name" : "<sources-file-list>"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/kevinkorfmann/Projects/ssh-dashboard-mac/SSHDashboard/DesktopWidgetView.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/kevinkorfmann/Projects/ssh-dashboard-mac/SSHDashboard/SSHConfigParser.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/kevinkorfmann/Projects/ssh-dashboard-mac/SSHDashboard/SSHDashboardApp.swift"
+        }
+      ],
+      "outputFilePath" : "/Users/kevinkorfmann/Projects/ssh-dashboard-mac/.build/arm64-apple-macosx/release/SSHDashboard.build/sources"
+    },
+    "/Users/kevinkorfmann/Projects/ssh-dashboard-mac/.build/arm64-apple-macosx/release/SSHDashboard.product/Objects.LinkFileList" : {
+      "alwaysOutOfDate" : false,
+      "inputs" : [
+        {
+          "kind" : "virtual",
+          "name" : "<link-file-list>"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/kevinkorfmann/Projects/ssh-dashboard-mac/.build/arm64-apple-macosx/release/SSHDashboard.build/DesktopWidgetView.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/kevinkorfmann/Projects/ssh-dashboard-mac/.build/arm64-apple-macosx/release/SSHDashboard.build/SSHConfigParser.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/kevinkorfmann/Projects/ssh-dashboard-mac/.build/arm64-apple-macosx/release/SSHDashboard.build/SSHDashboardApp.swift.o"
+        }
+      ],
+      "outputFilePath" : "/Users/kevinkorfmann/Projects/ssh-dashboard-mac/.build/arm64-apple-macosx/release/SSHDashboard.product/Objects.LinkFileList"
+    },
+    "/Users/kevinkorfmann/Projects/ssh-dashboard-mac/.build/arm64-apple-macosx/release/swift-version--1AB21518FC5DEDBE.txt" : {
+      "alwaysOutOfDate" : true,
+      "inputs" : [
+        {
+          "kind" : "virtual",
+          "name" : "<swift-get-version>"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Library/Developer/CommandLineTools/usr/bin/swiftc"
+        }
+      ],
+      "outputFilePath" : "/Users/kevinkorfmann/Projects/ssh-dashboard-mac/.build/arm64-apple-macosx/release/swift-version--1AB21518FC5DEDBE.txt"
+    }
+  }
+}

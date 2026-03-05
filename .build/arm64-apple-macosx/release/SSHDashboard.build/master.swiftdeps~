@@ -1,0 +1,7 @@
+version: "Apple Swift version 5.10 (swiftlang-5.10.0.13 clang-1500.3.9.4)"
+options: "84cfb7d8a97f35844ab2eddc0e1f2628"
+build_time: [1772741404, 226115000]
+inputs:
+  "/Users/kevinkorfmann/Projects/ssh-dashboard-mac/SSHDashboard/DesktopWidgetView.swift": [9223372036, 854775807]
+  "/Users/kevinkorfmann/Projects/ssh-dashboard-mac/SSHDashboard/SSHConfigParser.swift": [9223372036, 854775807]
+  "/Users/kevinkorfmann/Projects/ssh-dashboard-mac/SSHDashboard/SSHDashboardApp.swift": [9223372036, 854775807]
